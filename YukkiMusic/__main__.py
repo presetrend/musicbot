@@ -40,8 +40,8 @@ async def init():
         not config.SPOTIFY_CLIENT_ID
         and not config.SPOTIFY_CLIENT_SECRET
     ):
-        LOGGER("YukkiMusic").warning(
-            "No Spotify Vars defined. Your bot won't be able to play spotify queries."
+        LOGGER("PresetrendMusic").warning(
+            "Tidak ada Spotify Vars yang didefinisikan. Bot Anda tidak akan dapat memutar kueri spotify."
         )
     try:
         users = await get_gbanned()
