@@ -28,6 +28,11 @@
         "value": "True",
         "required": true
       },
+      "DURATION_LIMIT": {
+        "description": "Custom max audio(music) duration for voice chat. Default to 200 mins.", 
+        "value": "200 mins", 
+        "required": true
+      },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
         "value": "",
