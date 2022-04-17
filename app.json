@@ -33,6 +33,16 @@
         "value": "200 mins", 
         "required": true
       },
+      "VIDEO_STREAM_LIMIT": {
+        "description": "Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on.",
+        "value": "on",
+        "required": false
+      },
+      "SONG_DOWNLOAD_DURATION_LIMIT": {
+        "description": "Batas Durasi untuk mengunduh Lagu dalam format MP3 atau MP4 dari bot. Default ke 180 menit.", 
+        "value": "180 mins", 
+        "required": false
+      },   
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
         "value": "",
